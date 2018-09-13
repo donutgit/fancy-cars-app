@@ -1,0 +1,57 @@
+.FooterContainer {
+  background-color: #12171c;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+  color: #a7a7a7;
+  flex-shrink: 0;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.FooterContent {
+  max-width: 1260px;
+  width: 100%;
+  margin: auto;
+  padding: 30px 0;
+}
+.IconsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.IconWrap {
+  display: flex;
+  align-items: center;
+  color: #a7a7a7;
+  /* margin-left: 30px; */
+}
+.IconWrap svg {
+  margin-right: 15px;
+  color: #00BCD4;
+}
+.IconWrap p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.Contacts {
+  padding: 20px 0;  
+}
+.Rights {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.Rights p {
+  text-align: left;
+  color: #a7a7a7;
+  /* margin: 0; */
+  font-size: 12px;
+}
+@media(max-width: 600px) {
+  .IconsContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

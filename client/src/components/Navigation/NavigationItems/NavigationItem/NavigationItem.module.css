@@ -1,0 +1,39 @@
+.NavigationItem {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+.NavigationItem a {
+  padding: 0;
+  height: 100%;
+  min-width: 88px;
+  border-radius: 0;
+}
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+  color: red;
+}
+
+@media (min-width: 600px) {
+  .NavigationItem {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+  }
+  .NavigationItem a {
+    border-bottom: 1px solid transparent;
+  }
+  .NavigationItem a:hover,
+  .NavigationItem a:active {
+    border-color: #00BCD4;
+    color: #00BCD4;
+  }
+  .NavigationItem a.active {
+    border-color: #00BCD4;
+    color: #00BCD4;
+  }
+}

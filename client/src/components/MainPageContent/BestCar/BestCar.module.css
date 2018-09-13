@@ -1,0 +1,68 @@
+.BestCarComposition {
+  display: block;
+  position: relative;
+  z-index: 1;
+  padding-top: 43px;
+}
+.BestCarComposition:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 134px;
+  width: 255px;
+  bottom: 111px;
+  border: 8px solid #00BCD4;
+  z-index: -1;
+}
+.BestCarComposition p:nth-child(1) {
+  font-size: 50px;
+  background-color: #1a1d21;
+  line-height: 1;
+  padding-top: 15px;
+  margin: 0 195px 0 0;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.BestCarComposition p:nth-child(2) {
+  font-size: 62px;
+  font-weight: bold;
+  background-color: #1a1d21;
+  line-height: 1;
+  margin: 0 195px 0 0;
+  text-align: right;
+  text-transform: uppercase;
+}
+.BestCarComposition p:nth-child(3) {
+  font-size: 16px;
+  background-color: #1a1d21;
+  line-height: 1;
+  margin: 0 195px 15px 0;
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  color: #a7a7a7;
+}
+.BestCarVoteSteps {
+  display: flex;
+  flex-direction: column;
+}
+.BestCarVoteSteps p {
+  color: #a7a7a7;
+  margin: 10px 0px 10px 51px;
+  text-align: left;
+}
+.StepTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.StepTitle h4 {
+  margin: 0 15px;
+}
+.StepTitle svg {
+  fill: #000;
+  background-color: #00BCD4;
+  padding: 6px;
+  border-radius: 2px;
+}

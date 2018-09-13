@@ -1,0 +1,11 @@
+.Headline {
+  font-size: 4.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.Subheadline {
+  margin: 10px 0 30px;
+  font-size: 1.313rem;
+  font-weight: 400;
+}

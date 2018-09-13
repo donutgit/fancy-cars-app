@@ -1,0 +1,15 @@
+.Root {
+  flex-grow: 1;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1664px;
+  margin: auto;
+}
+.Wrapper {
+  position: relative;
+  min-height: 300px;
+  margin: 40px;
+  border: 1px solid rgba(0, 188, 212, 0.3);
+  text-align: center;
+}

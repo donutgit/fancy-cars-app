@@ -1,0 +1,38 @@
+.PostCard {
+  height: 265px;
+}
+.PostCardImage {
+  height: 100px;
+}
+.PostCardContent {
+  height: 165px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+}
+.PostCardLink {
+  text-decoration: none;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+.PostCardText {
+  color: rgba(0, 0, 0, 0.84);
+  fill: rgba(0, 0, 0, 0.84);
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 24px;
+  margin: 0;
+}
+.PostCardBottom {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  /* padding-bottom: 10px !important; */
+}

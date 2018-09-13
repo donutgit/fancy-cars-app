@@ -1,0 +1,42 @@
+.formWrapper {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  min-width: 300px;
+  max-width: 400px;
+  min-height: 300px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.formWrapper form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 8% 8% 8%;
+}
+.formWrapper button {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.formWrapper a {
+  color: #a655ff;
+}
+
+.buttons {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.loading {
+  filter: blur(5px);
+}
+.loadingWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
