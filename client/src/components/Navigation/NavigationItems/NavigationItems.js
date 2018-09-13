@@ -12,6 +12,7 @@ const NavigationItems = props => (
     <NavigationItem link="/cars">Cars</NavigationItem>
     <NavigationItem link="/charts">Charts</NavigationItem>
     <NavigationItem link="/console" color="#F50057">Console</NavigationItem>
+    <NavigationItem link="/todo" color="#b56f3f">TO DO</NavigationItem>
   </ul>
 );
 
