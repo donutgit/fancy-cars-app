@@ -22,7 +22,7 @@ const uri = require("./config/database").mLabURI;
 mongoose
   .connect(uri)
   .then(() => {
-    console.log("mongodb connected");
+    console.log("mongodb connected"!!);
   })
   .catch(err => console.log(err));
 
